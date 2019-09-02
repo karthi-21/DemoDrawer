@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Light application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#fff</item>
+        <item name="cardbackgroundcolor">@color/cardview_light_background</item>
+        <item name="textcolor">#000</item>
+        <item name="drawertextcolor">#fff</item>
+        <item name="dividercolor">#60424242</item>
+    </style>
+
+    <!-- Dark application theme. -->
+    <style name="darkTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">@color/dark</item>
+        <item name="cardbackgroundcolor">#252525</item>
+        <item name="textcolor">#fff</item>
+        <item name="drawertextcolor">#fff</item>
+        <item name="dividercolor">#80ffffff</item>
+    </style>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rootView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navigationDrawerBackgroundColor="?attr/backgroundcolor"
+        app:appbarTitleTextColor="@android:color/white"
+        app:HamMenuIconTintColor="@android:color/white"
+        app:appbarColor="@color/colorPrimaryDark"
+        app:primaryMenuItemTextColor="?attr/drawertextcolor"
+        app:secondaryMenuItemTextColor="?attr/textcolor"
+        app:appbarTitleTextSize="7sp"
+        app:primaryMenuItemTextSize="14sp"
+        app:secondaryMenuItemTextSize="7sp"
+        android:id="@+id/navigationDrawer">
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>
+
+</RelativeLayout>
